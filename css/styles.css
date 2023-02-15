@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main{
+    width: 100%;
+    padding: 0px 135px;
+}
+
+#filter-selection{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+#filter-selection p{
+    font-weight: bold;
+    color: rgb(13, 13, 118);
+}
+
+#products-list-item{
+    display: flex;
+    border: 1px solid red;
+}
+
+#products-list-item img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#products-list-item span{
+    display: flex;
+    justify-content: end;
+}
+
+#products-list-item span img{
+    width: 50px;
+    height: 50px;
+}
+
+#products-list-item-description{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ESTILIZAÇÃO DO BOTÃO DO FILTRO */
+.btn-filter{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+}

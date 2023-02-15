@@ -47,16 +47,29 @@ figure{
 
 main{
     display: flex;
-    justify-content: flex-start;
-    padding-top:100px;
-    align-items: center;
-    width: 50%;
-    height: 100vh;
     border: 1px solid black;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }   
+
+main #adicionarProduto{
+    height: 20vh;
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main #adicionarProduto button{
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+}
 
 #adicionarProduto{
     display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
 }
