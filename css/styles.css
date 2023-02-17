@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+header{
+
+    display:flex;
+    justify-content: center;
+    background-color: #eeae55
+
+}
+
+body{
+    background-color: rgb(129, 85, 85);
+   
+}
+section{
+    margin: 60px;
+    display: flex;
+}
+
+p{
+    color: white;
+}
+.categorias{
+    display: flexbox;
+}
+
+
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 120px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+
+
+footer{
+    background-color: #eeae55;
+    justify-content: center;
+    text-align: center;
+    color:rgba(129, 3, 29, 0.993)
+}
