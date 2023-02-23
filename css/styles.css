@@ -50,6 +50,14 @@ section .categorias .carnes{
     border-width: 3px;
     border-style: solid;
 }
+section .categorias .sobremesa{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color:#eeae55;
+    border-width: 3px;
+    border-style: solid;
+}
 
 p{
     color: white;
