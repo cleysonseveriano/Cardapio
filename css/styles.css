@@ -18,7 +18,7 @@ body{
     background-color: rgb(129, 85, 85);
    
 }
-section{
+section, .conteudo-principal{
     margin: 60px;
     display: flex;
 }
@@ -26,15 +26,16 @@ section{
 p{
     color: white;
 }
-.categorias{
-    display: flexbox;
+section.categorias .frutosDoMar {
+    
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
 }
 
-
-
 img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 120px;
    margin-top: 20px;
    margin-bottom: 20px;
