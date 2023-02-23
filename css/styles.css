@@ -10,35 +10,61 @@ header{
 
     display:flex;
     justify-content: center;
-    background-color: #eeae55
+    background-color: #eeae55;
 
 }
-
-body{
-    background-color: rgb(129, 85, 85);
-   
-}
-section, .conteudo-principal{
+section .conteudo-principal{
     margin: 60px;
     display: flex;
 }
 
-p{
-    color: white;
-}
-section.categorias .frutosDoMar {
+body{
+    background-color: rgb(129, 85, 85);
     
-    border-radius: 50%;
-    width: 75px;
-    height: 75px;
+   
 }
 
+section .categorias .frutosDoMar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color:#eeae55;
+    border-width: 3px;
+    border-style: solid;
+
+}
+section .categorias .bebidas{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color:#eeae55;
+    border-width: 3px;
+    border-style: solid;
+    }
+section .categorias .carnes{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color:#eeae55;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+p{
+    color: white;
+
+}
 img{
     width: 200px;
     height: 200px;
     margin: 120px;
    margin-top: 20px;
    margin-bottom: 20px;
+   border-radius: 25%;
+   border-color:#eeae55;
+    border-width: 3px;
+    border-style: solid;
    
 }
 
