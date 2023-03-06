@@ -271,13 +271,14 @@ aside a{
     width: 700px;
     border-radius: 10px;
     height: 550px;
-    background-color: #D9D9D9;
+    background-color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: none;
     animation: animate;
     animation-duration: 800ms;
+    border: 5px solid black;
     box-shadow: 4px 2px 2px black;
 }
 
@@ -290,6 +291,126 @@ aside a{
     cursor: pointer;
     color: #fff;
     background-color: #023047;
+}
+
+.modal-informs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 55%;
+    height: 400px;
+    justify-content: space-around;
+}
+.modal-informs input{
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.modal-informs-1{
+    display: flex;
+    width: 55%;
+    gap: 20px;
+}
+
+.modal-informs-1 div, .modal-informs-2, .modal-informs-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-informs-2, .modal-informs-3{
+    width: 100%;
+}
+
+.save-item{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .product-card {
+        width: calc(100%-22px);
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box{
+        margin-top: 60%;
+        width: 70%;
+    }
+
+    .product-inform{
+        gap: 10px;
+    }
+
+    /* MODAL */
+    .modal{
+        padding: 20px;
+        width: 80%;
+        border-radius: 10px;
+        height: 550px;
+        background-color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+        animation: animate;
+        animation-duration: 800ms;
+        border: 5px solid black;
+        box-shadow: 4px 2px 2px black;
+    }
+    
+    .fechar{
+        padding: 10px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #023047;
+    }
+    
+    .modal-informs{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 55%;
+        height: 400px;
+        justify-content: space-around;
+    }
+    .modal-informs input{
+        height: 20px;
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+    
+    .modal-informs-1{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .modal-informs-1 input{
+        width: 100%;
+    }
+    .modal-informs-1 div, .modal-informs-2, .modal-informs-3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .modal-informs-2, .modal-informs-3{
+        width: 100%;
+    }
+    
+    .save-item{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .product-card-1 input{
+        width: 60px;
+    }
 }
 @media  screen and (min-width: 950px){
     header{

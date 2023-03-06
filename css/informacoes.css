@@ -250,14 +250,14 @@ select{
         margin-top: 60px;
     }
     
-    .inform-3{
+    .inform-3{  
         align-items: start;
         flex-direction: column;
     }
 
     select{
         margin-top: 20px;
-        height: 20px;
+        height: 40px;
         background-color: #d9d9d94b;
         border: 3px solid #000000;
         border-radius: 12px;
